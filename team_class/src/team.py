@@ -14,8 +14,32 @@ class Team():
     def has_player(self, player):
         return player in self.players
 
+
+    #  or  
+
+
+    # def has_player(self, player):
+    #     if player in self.players:
+            #    return True 
+        #   else: 
+        #       return False   
+
+
+
+    # or 
+    #   def has_player(self, player_to_check):
+        # for player in self.player:
+        #     if player == player_to_check
+        #     return True 
+        # return False       
+
     def play_game(self, win_or_loose):
         if win_or_loose == True:
             self.points += 3 
+
+
+    # or         
+    #  def play_game(self, win_or_loose):
+    #     if win_or_loose:
+    #         self.points += 3 
             
-    
