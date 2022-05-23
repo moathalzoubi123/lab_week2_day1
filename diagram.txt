@@ -1,0 +1,28 @@
+Class Student
+-------------
+
+name:   String 
+cohort: String 
+
+--------------
+
+talk(String) :
+say_favourite_language(String) : String
+
+========================================
+
+
+
+
+Class Team 
+-----------
+team:       String
+players:    List
+coach:      String
+points:     Integer
+
+------------------
+
+add_player(String) :
+has_player(String) : Boolean
+play_game(Boolean) :
